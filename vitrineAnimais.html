@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styleVitrineAnimais.css">
+    <link rel="icon" href="imagens/icone.png">
+
+    <title>Adotes</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="">Adotes</a>
+        <div>
+            <form action="">
+
+                <label for="nome">Login:</label>
+                <input id="nome" type="email" required autofocus>
+
+                <label for="senha">Senha:</label>
+                <input id="senha" type="password" required>
+
+                <button type="submit" class="btn btn-success">Entrar</button>
+
+            </form>
+        </div>
+        <span>Não possui conta? <a href="cadastroPessoa.html">Cadastre-se</a></span>
+    </header>
+
+
+
+
+    <main>
+        <div class="card cachorro">
+            <div class="tituloButtonCard">
+                <h4>Filhote de cachorro</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled checked type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled checked type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem6.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: vira-lata Tamanho: pequeno Gênero: Macho  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Vacinado, ainda sem nome</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, BPS" placeholder="Local">
+
+        </div>
+
+
+        <div class="card gato">
+            <div class="tituloButtonCard">
+                <h4>Gata de rua</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled checked type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem2.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: Desconhecida Tamanho: pequeno Gênero: Fêmea  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Animal dócil</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, Portão UNIFEI" placeholder="Local">
+
+        </div>
+
+
+        <div class="card cachorro">
+            <div class="tituloButtonCard">
+                <h4>Cachorro de rua</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem1.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: vira-lata Tamanho: grande Gênero: Macho  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Pata direta machucada, animal dócil</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, praça central" placeholder="Local">
+
+        </div>
+
+        
+        <div class="card gato">
+            <div class="tituloButtonCard">
+                <h4>Gato de rua machucado</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem7.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: Desconhecida Tamanho: normal Gênero: Fêmea  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Animal dócil, 4 patas machucadas</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, Rua Santa Clara, nº123" placeholder="Local">
+
+        </div>
+
+
+        <div class="card cachorro">
+            <div class="tituloButtonCard">
+                <h4>Filhote de pitbull</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled checked type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled checked type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem8.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: pitbull Tamanho: pequeno Gênero: Fêmea  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Vacinado, atende por Sherry</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, Rua abc, nº321" placeholder="Local">
+
+        </div>
+        
+
+        <div class="card gato">
+            <div class="tituloButtonCard">
+                <h4>Gata de rua</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem9.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: Desconhecida Tamanho: normal Gênero: Fêmea  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Animal dócil</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, Rua Santa Clara, nº123" placeholder="Local">
+
+        </div>
+
+
+        <div class="card cachorro">
+            <div class="tituloButtonCard">
+                <h4>Cachorro de rua</h4>
+                <!-- <button class="btn-primary">Cadastrar</button> -->
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <input disabled checked type="radio" name="animal" value="Cachorro" id="cachorro">Cachorro
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled type="radio" name="animal" value="gato" id="gato">Gato
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div> 
+                        <input disabled type="radio" name="origem" value="Doméstico" id="domestico">Doméstico
+                        <!-- <label for="cachorro">Cachorro</label>   -->
+                    </div>
+                    <div>
+                        <input disabled checked type="radio" name="origem" value="De rua">De rua
+                        <!-- <label for="gato">Gato</label>   -->
+                    </div>
+                </div>
+                
+                <div>
+                    <input disabled type="checkbox" name="filhote" id="filhote">
+                    <label for="filhote">Filhote</label>
+                </div>
+            </form>
+
+            <div class="imagemEDescricao">
+                <img src="imagens/imagem5.jpg" alt="">
+                <div class="descricao">
+                    <textarea disabled style="resize: none;" name="descricaoAnimal" id="" cols="20" rows="3">Raça: vira-lata Tamanho: grande Gênero: Macho  </textarea>
+                    <textarea disabled style="resize: none;" name="descricaoQualquer" id="" cols="20" rows="3">Animal aparenta ser bravo</textarea>
+                </div>
+            </div>
+
+            <input disabled type="text" name="local" value="Itajubá-MG, praça central" placeholder="Local">
+
+        </div>
+    </main>
+
+
+    <footer>
+        <span>&copy; Todos os direitos reservados</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

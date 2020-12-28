@@ -19,7 +19,7 @@ body{
     display: grid;
     height: 100vh;
     width: 100%;
-    background-image: url(imagens/fundo.jpg);
+    background-image: url(../imagens/fundo.jpg);
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr 1fr;
     grid-template-areas: 
@@ -37,6 +37,23 @@ header{
     align-items: center;
 }
 
+
+section{
+    grid-area: corpo;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioCadastro{
+    background: linear-gradient(to left, #8181F7, #971FCA);
+}
+
+section form{
+    margin: 10px;
+}
 
 footer{
     grid-area: rodape;

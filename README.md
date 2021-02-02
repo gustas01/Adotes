@@ -1,5 +1,5 @@
 # Adotes
-Site fictício para adoção de cachorros e gatos de rua, e filhotes cujos donos queiram doar.
+Site fictício para adoção de cachorros e gatos de rua, e filhotes cujos donos queiram doar.<hr>
 Tecnologias usadas: HTML, CSS, Javascript e Bootstrap
 
 Ao entrar no site, o usuário se depara com a página inicial

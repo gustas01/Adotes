@@ -12,3 +12,8 @@ Mas para que o usuário possa fazer o cadastro de animais e entrar em contato co
 
 Depois de logado, será exibido para o usuário os dados de contato de quem fez alguma publicação (para algum animal doméstico que o dono esteja querendo doar seus filhotes, por exemplo), e também poderá fazer o cadastro de algum cachorro ou gato, preenchendo o formulário.
 <img src="imagens/cadastroAnimais.JPG">
+
+
+
+Para acessar a aplicação no GitHub Pages, acesse
+https://gustas01.github.io/Adotes/

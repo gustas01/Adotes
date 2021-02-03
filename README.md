@@ -16,5 +16,5 @@ Depois de logado, será exibido para o usuário os dados de contato de quem fez 
 
 
 
-Para acessar a aplicação no GitHub Pages, acesse
+Para ir à aplicação no GitHub Pages, acesse
 https://gustas01.github.io/Adotes/
